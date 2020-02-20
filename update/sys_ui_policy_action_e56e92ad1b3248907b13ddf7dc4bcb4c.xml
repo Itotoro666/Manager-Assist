@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>award</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kenji.nakao1</sys_created_by>
+        <sys_created_on>2020-02-06 07:14:20</sys_created_on>
+        <sys_id>e56e92ad1b3248907b13ddf7dc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>award</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e56e92ad1b3248907b13ddf7dc4bcb4c</sys_update_name>
+        <sys_updated_by>kenji.nakao1</sys_updated_by>
+        <sys_updated_on>2020-02-06 07:14:20</sys_updated_on>
+        <table>x_95242_manager_as_award</table>
+        <ui_policy display_value="Hide Award &amp; ReadOnly slots">ae4e9e6d1b3248907b13ddf7dc4bcbea</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

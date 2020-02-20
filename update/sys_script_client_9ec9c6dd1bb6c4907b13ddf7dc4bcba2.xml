@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>action_status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>cascade task</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+      var mngtask = g_form.getReference('award',callBack);
+
+
+   function callBack(mngtask) {
+      if (g_form.getValue('award') != '') {
+        g_form.setValue('name', mngtask.name);
+        g_form.setValue('short_description', mngtask.short_description);
+        g_form.setValue('deadline', mngtask.deadline);
+      }
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kenji.nakao1</sys_created_by>
+        <sys_created_on>2020-02-05 11:11:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ec9c6dd1bb6c4907b13ddf7dc4bcba2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>cascade task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_script_client_9ec9c6dd1bb6c4907b13ddf7dc4bcba2</sys_update_name>
+        <sys_updated_by>kenji.nakao1</sys_updated_by>
+        <sys_updated_on>2020-02-05 11:26:18</sys_updated_on>
+        <table>x_95242_manager_as_award</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

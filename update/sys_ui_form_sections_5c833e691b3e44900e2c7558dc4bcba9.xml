@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5c833e691b3e44900e2c7558dc4bcba9" sys_domain="global" table="x_95242_manager_as_candidate" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Kenji.Nakao1@ibm.com</sys_created_by>
+            <sys_created_on>2020-02-13 04:32:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc8cf9372f32c01079dc811df699b650</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_95242_manager_as_candidate" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">5c833e691b3e44900e2c7558dc4bcba9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>Kenji.Nakao1@ibm.com</sys_updated_by>
+            <sys_updated_on>2020-02-13 04:32:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_95242_manager_as_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-06 08:46:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c833e691b3e44900e2c7558dc4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_95242_manager_as_candidate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5c833e691b3e44900e2c7558dc4bcba9</sys_update_name>
+            <sys_updated_by>E28442</sys_updated_by>
+            <sys_updated_on>2020-02-06 08:46:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

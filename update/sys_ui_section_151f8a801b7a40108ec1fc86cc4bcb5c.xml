@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="151f8a801b7a40108ec1fc86cc4bcb5c" sys_domain="global" table="x_95242_manager_as_candidate" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>beee97791bbe88907b13ddf7dc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <text>2019年度 2H GBS Award</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>3aee97791bbe88907b13ddf7dc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <text>Award</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>faee97791bbe88907b13ddf7dc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <text>Candidate Profile</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>beee97791bbe88907b13ddf7dc4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <text>Approve Info.</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>72ee97791bbe88907b13ddf7dc4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <text>事務局用</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beee97791bbe88907b13ddf7dc4bcba5</element>
+            <position>0</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8fee13b91bbe88907b13ddf7dc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>0bee13b91bbe88907b13ddf7dc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8fee13b91bbe88907b13ddf7dc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>07ee13b91bbe88907b13ddf7dc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8bee13b91bbe88907b13ddf7dc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>03ee13b91bbe88907b13ddf7dc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3aee97791bbe88907b13ddf7dc4bcba6</element>
+            <position>6</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>87ee13b91bbe88907b13ddf7dc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>award.award_program</element>
+            <position>7</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>0fee13b91bbe88907b13ddf7dc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>award.u_choice_2</element>
+            <position>8</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>83ee13b91bbe88907b13ddf7dc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>9</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>0bee13b91bbe88907b13ddf7dc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>faee97791bbe88907b13ddf7dc4bcba6</element>
+            <position>10</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8fee13b91bbe88907b13ddf7dc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>candidate</element>
+            <position>11</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>07ee13b91bbe88907b13ddf7dc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_1</element>
+            <position>12</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8bee13b91bbe88907b13ddf7dc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_3</element>
+            <position>13</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>03ee13b91bbe88907b13ddf7dc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <position>14</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>87ee13b91bbe88907b13ddf7dc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>15</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>0fee13b91bbe88907b13ddf7dc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beee97791bbe88907b13ddf7dc4bcba6</element>
+            <position>16</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>83ee13b91bbe88907b13ddf7dc4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approvers</element>
+            <position>17</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>0bee13b91bbe88907b13ddf7dc4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>72ee97791bbe88907b13ddf7dc4bcba7</element>
+            <position>18</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>8fee13b91bbe88907b13ddf7dc4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_2</element>
+            <position>19</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 06:34:27</sys_created_on>
+            <sys_id>07ee13b91bbe88907b13ddf7dc4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_95242_manager_as_candidate" sys_domain="global" view="Default view">151f8a801b7a40108ec1fc86cc4bcb5c</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 06:34:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_95242_manager_as_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-07 03:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151f8a801b7a40108ec1fc86cc4bcb5c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_95242_manager_as_candidate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_ui_section_151f8a801b7a40108ec1fc86cc4bcb5c</sys_update_name>
+            <sys_updated_by>E28442</sys_updated_by>
+            <sys_updated_on>2020-02-07 03:18:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

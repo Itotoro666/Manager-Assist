@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">c9c74e7d2f4b441079dc811df699b613</grid_canvas>
+        <height>8</height>
+        <portal_widget display_value="Created 2020-02-19 02:29:21">41c74ebd2f4b441079dc811df699b68a</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 10:29:22</sys_created_on>
+        <sys_id>c9c74ebd2f4b441079dc811df699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c9c74e7d2f4b441079dc811df699b613</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_c9c74ebd2f4b441079dc811df699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 10:29:22</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

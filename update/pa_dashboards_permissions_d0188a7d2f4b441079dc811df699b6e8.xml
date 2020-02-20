@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="My  ManagerPortal 1">fcc74e7d2f4b441079dc811df699b610</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>sn_appclient.app_client_company_installer</identity>
+        <read>true</read>
+        <role display_value="sn_appclient.app_client_company_installer" name="sn_appclient.app_client_company_installer">5815630447710300a03a19fbac9a71d5</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 10:30:40</sys_created_on>
+        <sys_id>d0188a7d2f4b441079dc811df699b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_appclient.app_client_company_installer</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_d0188a7d2f4b441079dc811df699b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 10:30:40</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7fdba59d1bf2c4907b13ddf7dc4bcb8a" sys_domain="global" table="x_95242_manager_as_award" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-07 03:35:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3de57e791bba88907b13ddf7dc4bcbd7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_95242_manager_as_award" name="x_95242_manager_as_award" sys_domain="global" view="Default view">7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
+            <sys_updated_by>Kenji.Nakao1@ibm.com</sys_updated_by>
+            <sys_updated_on>2020-02-13 04:32:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 05:35:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e61d3751b7e88907b13ddf7dc4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_95242_manager_as_award" name="x_95242_manager_as_award" sys_domain="global" view="Default view">7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_ui_form>
+            <sys_ui_section caption="My Allocation Adjustment" display_value="My Allocation Adjustment" name="x_95242_manager_as_award" sys_domain="global" view="Default view">8e61d3751b7e88907b13ddf7dc4bcbb1</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 05:35:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 05:35:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce61d3751b7e88907b13ddf7dc4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_95242_manager_as_award" name="x_95242_manager_as_award" sys_domain="global" view="Default view">7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_ui_form>
+            <sys_ui_section caption="My Approval" display_value="My Approval" name="x_95242_manager_as_award" sys_domain="global" view="Default view">8261d3751b7e88907b13ddf7dc4bcbb3</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 05:35:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 05:35:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da61d3751b7e88907b13ddf7dc4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_95242_manager_as_award" name="x_95242_manager_as_award" sys_domain="global" view="Default view">7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_ui_form>
+            <sys_ui_section caption="My Cumulative Allocation" display_value="My Cumulative Allocation" name="x_95242_manager_as_award" sys_domain="global" view="Default view">4261d3751b7e88907b13ddf7dc4bcbb4</sys_ui_section>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 05:35:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_95242_manager_as_award</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-05 08:54:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_95242_manager_as_award</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7fdba59d1bf2c4907b13ddf7dc4bcb8a</sys_update_name>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-05 08:54:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

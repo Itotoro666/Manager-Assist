@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_integer_6" label="Nomination Total (Assigned)" language="en" table="x_95242_manager_as_award">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_integer_6</element>
+            <help/>
+            <hint/>
+            <label>Nomination Total (Assigned)</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <plural>Nomination Total (Assigned)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-07 11:30:29</sys_created_on>
+            <sys_id>5ba22c021b76c8907b13ddf7dc4bcb85</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Nomination Total (Assigned)</sys_name>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_documentation_x_95242_manager_as_award_u_integer_6_en</sys_update_name>
+            <sys_updated_by>E28442</sys_updated_by>
+            <sys_updated_on>2020-02-07 11:50:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

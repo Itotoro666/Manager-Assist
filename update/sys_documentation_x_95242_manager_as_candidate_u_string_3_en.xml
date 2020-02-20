@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_3" label="Customer Name (J)" language="en" table="x_95242_manager_as_candidate">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_3</element>
+            <help/>
+            <hint/>
+            <label>Customer Name (J)</label>
+            <language>en</language>
+            <name>x_95242_manager_as_candidate</name>
+            <plural>Customer Name (J)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-06 08:46:17</sys_created_on>
+            <sys_id>90833e691b3e44900e2c7558dc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer Name (J)</sys_name>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_documentation_x_95242_manager_as_candidate_u_string_3_en</sys_update_name>
+            <sys_updated_by>E28442</sys_updated_by>
+            <sys_updated_on>2020-02-06 08:46:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

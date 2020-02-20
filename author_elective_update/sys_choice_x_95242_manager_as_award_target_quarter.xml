@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="target_quarter" table="x_95242_manager_as_award" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1Q</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>0</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:13:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0a09ae51bfe08907b13ddf7dc4bcb7c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:15:23</sys_updated_on>
+            <value>1Q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2Q</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>1</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:13:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bca09ae51bfe08907b13ddf7dc4bcb7e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:15:35</sys_updated_on>
+            <value>2Q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3Q</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>2</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:13:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70a09ae51bfe08907b13ddf7dc4bcb81</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:15:44</sys_updated_on>
+            <value>3Q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4Q</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>3</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:15:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0e0dee51bfe08907b13ddf7dc4bcb42</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:16:11</sys_updated_on>
+            <value>4Q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1H</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>4</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:16:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79111ee51bfe08907b13ddf7dc4bcb9c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:16:30</sys_updated_on>
+            <value>1H</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2H</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>5</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:16:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6215a291bfe08907b13ddf7dc4bcba5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:16:52</sys_updated_on>
+            <value>2H</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full Year</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>6</sequence>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b31da291bfe08907b13ddf7dc4bcb63</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:17:22</sys_updated_on>
+            <value>Full Year</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>target_quarter</element>
+            <name>x_95242_manager_as_award</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-06 06:13:57</sys_created_on>
+            <sys_id>408c79372f32c01079dc811df699b6d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>target_quarter</sys_name>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_choice_x_95242_manager_as_award_target_quarter</sys_update_name>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:13:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

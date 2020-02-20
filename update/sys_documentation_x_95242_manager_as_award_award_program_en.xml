@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="award_program" label="Award Program" language="en" table="x_95242_manager_as_award">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>award_program</element>
+            <help/>
+            <hint/>
+            <label>Award Program</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <plural>Award Programs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kenji.nakao1</sys_created_by>
+            <sys_created_on>2020-02-07 03:39:03</sys_created_on>
+            <sys_id>25c67af91bba88907b13ddf7dc4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Award Program</sys_name>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_documentation_x_95242_manager_as_award_award_program_en</sys_update_name>
+            <sys_updated_by>kenji.nakao1</sys_updated_by>
+            <sys_updated_on>2020-02-07 03:39:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

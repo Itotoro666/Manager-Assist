@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 13:55:51</sys_created_on>
+        <sys_id>926ace4c1b3a40108ec1fc86cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_95242_manager_as_candidate.x_95242_manager_as.candidate_user</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_security_acl display_value="x_95242_manager_as_candidate">de6ace4c1b3a40108ec1fc86cc4bcb15</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_926ace4c1b3a40108ec1fc86cc4bcb19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 13:55:51</sys_updated_on>
+        <sys_user_role display_value="x_95242_manager_as.candidate_user" name="x_95242_manager_as.candidate_user">3c764e081b3a40108ec1fc86cc4bcbc9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

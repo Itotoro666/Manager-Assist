@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="candidate" max_length="40" name="x_95242_manager_as_candidate" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Approvers" max_length="4000" name="approvers" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Award" max_length="32" name="award" reference="x_95242_manager_as_award" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Award Program" max_length="40" name="award_program" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="Abel Tuter" label="Candidate" mandatory="true" max_length="32" name="candidate" reference="sys_user" type="reference"/>
+        <element label="infomation1" max_length="40" name="infomation1" type="string"/>
+        <element label="Infomation2" max_length="40" name="infomation2" type="string"/>
+        <element label="Infomation3" max_length="40" name="infomation3" type="string"/>
+        <element default="xxx社からの Winback 。" label="Reason" mandatory="true" max_length="1000" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Submit Org." max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Award事務局" sequence="0" value="award事務局"/>
+                <element inactive_on_update="false" label="BKFM" sequence="1" value="bkfm"/>
+                <element inactive_on_update="false" label="CAI" sequence="2" value="cai"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Award Amount ($)" max_length="20" name="u_currency_1" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="New HTML" max_length="65536" name="u_html_1" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Priority" max_length="40" name="u_integer_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="トヨタ自動車" label="Customer Name (J)" mandatory="true" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="ＧＬＯＢＡＬ会計システム構築" label="Project Name (J)" mandatory="true" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>

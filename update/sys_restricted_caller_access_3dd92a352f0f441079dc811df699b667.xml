@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>92f5dea487003300e0ef0cf888cb0bea</source>
+        <source_scope display_value="ServiceNow NowMobile App Screens and Applet Launcher">5cfbdaac77eb2300454792718a106157</source_scope>
+        <source_table>sys_script</source_table>
+        <source_type>0</source_type>
+        <status>0</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 12:58:14</sys_created_on>
+        <sys_id>3dd92a352f0f441079dc811df699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5cfbdaac77eb2300454792718a106157</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_3dd92a352f0f441079dc811df699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 12:58:14</sys_updated_on>
+        <target name="x_95242_manager_as_candidate" target_table="sys_db_object">1f4a460c1b3a40108ec1fc86cc4bcb14</target>
+        <target_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

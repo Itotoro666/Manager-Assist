@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Award Request">db42d2441b7a40108ec1fc86cc4bcb5a</sc_cat_item>
+        <sc_category display_value="Manager Assistant">c6cbb6981b7a80108ec1fc86cc4bcb91</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 12:13:36</sys_created_on>
+        <sys_id>1e9cba981b7a80108ec1fc86cc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mnager Assistant.Award request</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sc_cat_item_category_1e9cba981b7a80108ec1fc86cc4bcb64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 12:13:36</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
