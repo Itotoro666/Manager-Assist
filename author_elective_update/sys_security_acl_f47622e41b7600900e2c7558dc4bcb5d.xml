@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_95242_manager_as_candidate.assigned_to</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>kenji.nakao1</sys_created_by>
+        <sys_created_on>2020-02-03 05:17:27</sys_created_on>
+        <sys_id>f47622e41b7600900e2c7558dc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_95242_manager_as_candidate.assigned_to</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_security_acl_f47622e41b7600900e2c7558dc4bcb5d</sys_update_name>
+        <sys_updated_by>kenji.nakao1</sys_updated_by>
+        <sys_updated_on>2020-02-03 05:17:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_security_acl_f47622e41b7600900e2c7558dc4bcb5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_95242_manager_as_candidate.assigned_to</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>kenji.nakao1</sys_created_by>
+        <sys_created_on>2020-02-03 05:17:27</sys_created_on>
+        <sys_id>f47622e41b7600900e2c7558dc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_95242_manager_as_candidate.assigned_to</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_security_acl_f47622e41b7600900e2c7558dc4bcb5d</sys_update_name>
+        <sys_updated_by>kenji.nakao1</sys_updated_by>
+        <sys_updated_on>2020-02-03 05:17:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-60407362</payload_hash>
+        <record_name>x_95242_manager_as_candidate.assigned_to</record_name>
+        <reverted_from/>
+        <source>4dcc0cd62f430010b09c11c82799b656</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 14:49:07</sys_created_on>
+        <sys_id>77cc401a2f430010b09c11c82799b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706312e2db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 14:49:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>37cc401aa8430010b6977a513bb48b62</update_guid>
+        <update_guid_history>37cc401aa8430010b6977a513bb48b62:-60407362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 06:59:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>071a953ff46443d8995c1d5ebc5faca4</sys_id>
+        <sys_metadata>f47622e41b7600900e2c7558dc4bcb5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_95242_manager_as_candidate.assigned_to</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent display_value="x_95242_manager_as_candidate">e8ccc8d62f430010b09c11c82799b6cc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f47622e41b7600900e2c7558dc4bcb5d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f47622e41b7600900e2c7558dc4bcb5d">77cc401a2f430010b09c11c82799b662</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 06:59:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

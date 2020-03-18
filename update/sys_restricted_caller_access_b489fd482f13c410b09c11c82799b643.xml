@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source>2ffae4402f1f8410b09c11c82799b603</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sysevent_in_email_action</source_table>
+        <source_type>13</source_type>
+        <status>3</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 09:16:16</sys_created_on>
+        <sys_id>b489fd482f13c410b09c11c82799b643</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_b489fd482f13c410b09c11c82799b643</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 10:22:28</sys_updated_on>
+        <target name="x_95242_manager_as_award" target_table="sys_db_object">3054c6c41b3a40108ec1fc86cc4bcbde</target>
+        <target_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

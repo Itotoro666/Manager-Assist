@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="2">956672b82f234c10b09c11c82799b6d9</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 07:50:33</sys_created_on>
+        <sys_id>956672b82f234c10b09c11c82799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sp_column_956672b82f234c10b09c11c82799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 07:50:33</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sp_column_956672b82f234c10b09c11c82799b6dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">956672b82f234c10b09c11c82799b6d9</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-12 07:50:33</sys_created_on><sys_id>956672b82f234c10b09c11c82799b6dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sp_column_956672b82f234c10b09c11c82799b6dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-12 07:50:33</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>128587441</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 07:50:33</sys_created_on>
+        <sys_id>d56672b82f234c10b09c11c82799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170cdb93be80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 07:50:33</sys_updated_on>
+        <type>Column</type>
+        <update_guid>116672b8f2234c1016234c67363b6add</update_guid>
+        <update_guid_history>116672b8f2234c1016234c67363b6add:128587441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">4486f2b82f234c10b09c11c82799b6a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 07:51:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0e7a1f402f154fbc9dacdde11f1c7044</sys_id>
+        <sys_metadata>956672b82f234c10b09c11c82799b6dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sp_column_956672b82f234c10b09c11c82799b6dc</sys_update_name>
+        <sys_update_version display_value="sp_column_956672b82f234c10b09c11c82799b6dc">d56672b82f234c10b09c11c82799b6dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 07:51:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>u_choice_2,award_program,number,state,deadline</field_list>
+        <filter table="x_95242_manager_as_award">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ac162ab42fef0c10b09c11c82799b6d1</sp_column>
+        <sp_page display_value="manager_task_form">adcf1f8d2fa38c10b09c11c82799b62b</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 06:39:56</sys_created_on>
+        <sys_id>b236aab42fef0c10b09c11c82799b61b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>My Open Tasks</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sp_instance_table_b236aab42fef0c10b09c11c82799b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-16 06:46:19</sys_updated_on>
+        <table>x_95242_manager_as_award</table>
+        <title>My Open Tasks</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=b236aab42fef0c10b09c11c82799b61b"/>
+</record_update>

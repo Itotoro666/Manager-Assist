@@ -3,7 +3,7 @@
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
-        <caller_access>2</caller_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>true</create_access>
@@ -18,21 +18,21 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">1061a6b71b0000109c78dd3cdc4bcba2</super_class>
+        <super_class display_value="Task" name="task">30e6a5842f320010b09c11c82799b6d4</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-01 13:55:51</sys_created_on>
         <sys_id>1f4a460c1b3a40108ec1fc86cc4bcb14</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>candidate</sys_name>
         <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
         <sys_update_name>sys_db_object_1f4a460c1b3a40108ec1fc86cc4bcb14</sys_update_name>
-        <sys_updated_by>kenji.nakao1</sys_updated_by>
-        <sys_updated_on>2020-02-03 05:12:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 04:47:04</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_95242_manager_as.candidate_user" name="x_95242_manager_as.candidate_user">3c764e081b3a40108ec1fc86cc4bcbc9</user_role>
         <ws_access>true</ws_access>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Manager Task" max_length="40" name="x_95242_manager_as_award" sizeclass="24" type="collection">
+    <element extends="task" label="Manager Task" max_length="40" name="x_95242_manager_as_award" sizeclass="36" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Award" max_length="32" name="award" reference="x_95242_manager_as_award" type="reference"/>
         <element label="Award Program" max_length="100" name="award_program" type="string"/>
         <element default="2020/02/02 17:00:00" label="Due date" max_length="40" name="deadline" read_only="true" type="glide_date_time"/>
@@ -8,7 +8,7 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="owner" mandatory="true" max_length="32" name="owner" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Task" max_length="32" name="parent_task" reference="x_95242_manager_as_award" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="0" label="Slots" max_length="40" name="slots" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Target Quarter" max_length="40" name="target_quarter" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Target Quarter" max_length="40" name="target_quarter" type="string">
             <choice>
                 <element inactive_on_update="false" label="1Q" sequence="0" value="1Q"/>
                 <element inactive_on_update="false" label="2Q" sequence="1" value="2Q"/>
@@ -19,12 +19,14 @@
                 <element inactive_on_update="false" label="Full Year" sequence="6" value="Full Year"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Target Year" max_length="40" name="target_year" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Award Category" max_length="40" name="u_choice_2" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Target Year" max_length="40" name="target_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Award Category" max_length="40" name="u_choice_2" type="string">
             <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
                 <element inactive_on_update="false" label="Multi-Cloud Certification Award" sequence="0" value="Multi-Cloud Certification Award"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="SEA(Service Excellence Award)" sequence="1" value="SEA"/>
+                <element inactive_on_update="false" label="GM Incentive" sequence="2" value="GM"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="0" label="Nominated slot" max_length="40" name="u_integer_1" read_only="true" type="integer"/>

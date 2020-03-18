@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a1cf1f8d2fa38c10b09c11c82799b634</sp_column>
+        <sp_widget display_value="Related List">b468f70d2f278c10b09c11c82799b6e2</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 07:33:28</sys_created_on>
+        <sys_id>681c33412f678c10b09c11c82799b6db</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sp_instance_681c33412f678c10b09c11c82799b6db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:13:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=681c33412f678c10b09c11c82799b6db"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sp_instance_681c33412f678c10b09c11c82799b6db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">a1cf1f8d2fa38c10b09c11c82799b634</sp_column><sp_widget display_value="Related List">b468f70d2f278c10b09c11c82799b6e2</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 07:33:28</sys_created_on><sys_id>681c33412f678c10b09c11c82799b6db</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sp_instance_681c33412f678c10b09c11c82799b6db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 09:13:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=681c33412f678c10b09c11c82799b6db"/></record_update>]]></payload>
+        <payload_hash>1015657901</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 09:13:54</sys_created_on>
+        <sys_id>b70318992fa78c10b09c11c82799b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170d32be50f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:13:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>33031899d1a78c10d2c5b09c00da935d</update_guid>
+        <update_guid_history>33031899d1a78c10d2c5b09c00da935d:1015657901,dd80449504678c10257d396fff8e3713:-61443252,f41dbb8152678c10960995cf28a1c3ef:-1138544405,201c3341f6678c10b9b158d0a479f0dd:-61443252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7c95905d2fa78c10b09c11c82799b645</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 09:24:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0ee41bd8ef18438e9deed6df51b6e144</sys_id>
+        <sys_metadata>681c33412f678c10b09c11c82799b6db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sp_instance_681c33412f678c10b09c11c82799b6db</sys_update_name>
+        <sys_update_version display_value="sp_instance_681c33412f678c10b09c11c82799b6db">b70318992fa78c10b09c11c82799b65d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:24:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>d96ba3df2f8b0410b09c11c82799b657</copied_from>
+        <copied_from_name>Inbound Email update Manager Tas</copied_from_name>
+        <description/>
+        <internal_name>inbound_email_update_manager_tasks__manager</internal_name>
+        <label_cache>[{"name":"9f02cfe6-c022-4ae3-b4c4-da9e07cc7ff0.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9f02cfe6-c022-4ae3-b4c4-da9e07cc7ff0.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Inbound Email_1.target_table_name","label":"Trigger➛candidate Table","reference":"x_95242_manager_as_candidate","reference_display":"candidate","type":"table_name","base_type":"table_name"},{"name":"45d765db-0da8-44d0-80d3-35204677c6be.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"45d765db-0da8-44d0-80d3-35204677c6be.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Inbound Email_1.body_text","label":"Trigger➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8"},{"name":"Inbound Email_1.target_record","label":"Trigger➛Manager Task Record","reference":"x_95242_manager_as_award","reference_display":"Manager Task","type":"reference","base_type":"reference"},{"name":"Inbound Email_1.inbound_email.subject","label":"Trigger➛Email Record➛Subject","reference":"","reference_display":"Subject","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"subject"},{"name":"Inbound Email_1.target_record.number","label":"Trigger➛Manager Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_95242_manager_as_award","column_name":"number"}]</label_cache>
+        <latest_snapshot>b4f78fc02f57c410b09c11c82799b644</latest_snapshot>
+        <master_snapshot>fc03c3cc2f17c410b09c11c82799b65c</master_snapshot>
+        <name>Inbound Email update Manager Tasks - Manager</name>
+        <outputs/>
+        <remote_trigger_id>890307cc2f17c410b09c11c82799b602</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89eef2c82f17c410b09c11c82799b654</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Inbound Email update Manager Tasks - Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_hub_flow_89eef2c82f17c410b09c11c82799b654</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=89eef2c82f17c410b09c11c82799b654"/>
+    <sys_variable_value action="delete_multiple" query="document_key=89eef2c82f17c410b09c11c82799b654"/>
+    <sys_flow_email_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <email_conditions table="sys_email">type=received^receive_type=reply^body_textLIKECompleted^ORbody_textLIKEcompleted^ORbodyLIKECompleted^ORbodyLIKEcompleted^ORsubjectLIKECompleted^ORsubjectLIKEcompleted<item display_value="received" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="received"/>
+            <item display_value="Reply" endquery="false" field="receive_type" goto="false" newquery="false" operator="=" or="false" value="reply"/>
+            <item endquery="false" field="body_text" goto="false" newquery="false" operator="LIKE" or="false" value="Completed"/>
+            <item endquery="false" field="body_text" goto="false" newquery="false" operator="LIKE" or="true" value="completed"/>
+            <item endquery="false" field="body" goto="false" newquery="false" operator="LIKE" or="true" value="Completed"/>
+            <item endquery="false" field="body" goto="false" newquery="false" operator="LIKE" or="true" value="completed"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="true" value="Completed"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="true" value="completed"/>
+        </email_conditions>
+        <event_name>email.read</event_name>
+        <name/>
+        <order/>
+        <stop_condition_evaluation>true</stop_condition_evaluation>
+        <sys_class_name>sys_flow_email_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>890307cc2f17c410b09c11c82799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <target_table>x_95242_manager_as_award</target_table>
+    </sys_flow_email_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN1deef2c82f17c410b09c11c82799b6a1,89eef2c82f17c410b09c11c82799b69d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>1deef2c82f17c410b09c11c82799b6a1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:44</sys_updated_on>
+        <ui_id>45d765db-0da8-44d0-80d3-35204677c6be</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1deef2c82f17c410b09c11c82799b6a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1deef2c82f17c410b09c11c82799b6a1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>91eef2c82f17c410b09c11c82799b6a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:22:06</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1deef2c82f17c410b09c11c82799b6a1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>ddeef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1deef2c82f17c410b09c11c82799b6a1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>99eef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Inbound Email_1.target_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>d1eef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>5deef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3bd8bf532f0f0410b09c11c82799b62f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>89eef2c82f17c410b09c11c82799b69d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:44</sys_updated_on>
+        <ui_id>d6b1809e-5190-437c-a5dd-6a6207d17d32</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=89eef2c82f17c410b09c11c82799b69d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>89eef2c82f17c410b09c11c82799b69d</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>85eef2c82f17c410b09c11c82799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <value>{{Inbound Email_1.inbound_email.subject}}LIKE{{Inbound Email_1.target_record.number}}</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN19eef2c82f17c410b09c11c82799b6a5"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</flow>
+        <name>Inbound Email</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>19eef2c82f17c410b09c11c82799b6a5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>email</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19eef2c82f17c410b09c11c82799b6a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19eef2c82f17c410b09c11c82799b6a5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>1deef2c82f17c410b09c11c82799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <value/>
+        <variable display_value="">60b307c7c7312300f4eba1425a97637e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19eef2c82f17c410b09c11c82799b6a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>59eef2c82f17c410b09c11c82799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <value>type=received^receive_type=reply^body_textLIKECompleted^ORbody_textLIKEcompleted^ORbodyLIKECompleted^ORbodyLIKEcompleted^ORsubjectLIKECompleted^ORsubjectLIKEcompleted</value>
+        <variable display_value="">18010347c7312300f4eba1425a9763f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19eef2c82f17c410b09c11c82799b6a5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>95eef2c82f17c410b09c11c82799b6a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:22:05</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b914874853132300eb7c0a1806dc34b5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=89eef2c82f17c410b09c11c82799b654^sys_idNOT INcdeef2c82f17c410b09c11c82799b655"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>89eef2c82f17c410b09c11c82799b654</id>
+        <name>Inbound Email update Manager Tasks - Manager</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>cdeef2c82f17c410b09c11c82799b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN05eef2c82f17c410b09c11c82799b678,09eef2c82f17c410b09c11c82799b66d,41eef2c82f17c410b09c11c82799b65b,4deef2c82f17c410b09c11c82799b694,89eef2c82f17c410b09c11c82799b67d,8deef2c82f17c410b09c11c82799b672,c5eef2c82f17c410b09c11c82799b68f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>subject</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>Subject</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>05eef2c82f17c410b09c11c82799b678</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Target Table</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>09eef2c82f17c410b09c11c82799b66d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inbound_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Inbound Email</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_email">sys_email</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>type=received^sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^EQ</reference_qual>
+        <reference_qual_condition table="sys_email">type=received^sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^EQ<item display_value="received" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="received"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>41eef2c82f17c410b09c11c82799b65b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>from_address</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>From address</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>4deef2c82f17c410b09c11c82799b694</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>89eef2c82f17c410b09c11c82799b67d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body_text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>Body Text</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>8deef2c82f17c410b09c11c82799b672</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>target_table_name</dependent>
+        <dependent_on_field>target_table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Target Record</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</model>
+        <model_id>89eef2c82f17c410b09c11c82799b654</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>c5eef2c82f17c410b09c11c82799b68f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN1deef2c82f17c410b09c11c82799b6a1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>1deef2c82f17c410b09c11c82799b6a1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:44</sys_updated_on>
+        <ui_id>45d765db-0da8-44d0-80d3-35204677c6be</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1deef2c82f17c410b09c11c82799b6a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1deef2c82f17c410b09c11c82799b6a1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>91eef2c82f17c410b09c11c82799b6a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:22:06</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1deef2c82f17c410b09c11c82799b6a1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>ddeef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1deef2c82f17c410b09c11c82799b6a1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>99eef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Inbound Email_1.target_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>d1eef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1deef2c82f17c410b09c11c82799b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>5deef2c82f17c410b09c11c82799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1deef2c82f17c410b09c11c82799b6a1^sys_idNOT IN55eef2c82f17c410b09c11c82799b6a3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>1deef2c82f17c410b09c11c82799b6a1</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:33</sys_created_on>
+        <sys_id>55eef2c82f17c410b09c11c82799b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN89eef2c82f17c410b09c11c82799b69d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3bd8bf532f0f0410b09c11c82799b62f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>89eef2c82f17c410b09c11c82799b69d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-08 13:23:44</sys_updated_on>
+        <ui_id>d6b1809e-5190-437c-a5dd-6a6207d17d32</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=89eef2c82f17c410b09c11c82799b69d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>89eef2c82f17c410b09c11c82799b69d</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>85eef2c82f17c410b09c11c82799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <value>{{Inbound Email_1.inbound_email.subject}}LIKE{{Inbound Email_1.target_record.number}}</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654^sys_idNOT IN05eef2c82f17c410b09c11c82799b699,09eef2c82f17c410b09c11c82799b68e,45eef2c82f17c410b09c11c82799b677,49eef2c82f17c410b09c11c82799b66c,8deef2c82f17c410b09c11c82799b693,c9eef2c82f17c410b09c11c82799b67c,cdeef2c82f17c410b09c11c82799b671"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>from_address</element>
+        <help/>
+        <hint/>
+        <label>From address</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>05eef2c82f17c410b09c11c82799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>From address</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_from_address_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>09eef2c82f17c410b09c11c82799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_user_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body_text</element>
+        <help/>
+        <hint/>
+        <label>Body Text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>45eef2c82f17c410b09c11c82799b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Body Text</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_body_text_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inbound_email</element>
+        <help/>
+        <hint>The record representing the inbound email.</hint>
+        <label>Inbound Email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>49eef2c82f17c410b09c11c82799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbound Email</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_inbound_email_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_record</element>
+        <help/>
+        <hint/>
+        <label>Target Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>8deef2c82f17c410b09c11c82799b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target Record</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_target_record_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>subject</element>
+        <help/>
+        <hint/>
+        <label>Subject</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>c9eef2c82f17c410b09c11c82799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_subject_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_table_name</element>
+        <help/>
+        <hint/>
+        <label>Target Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:16:32</sys_created_on>
+        <sys_id>cdeef2c82f17c410b09c11c82799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target Table</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_89eef2c82f17c410b09c11c82799b654_target_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:16:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=89eef2c82f17c410b09c11c82799b654^sys_idNOT IN410307cc2f17c410b09c11c82799b603"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"410307cc2f17c410b09c11c82799b603","name":"plan"}}</plan>
+        <plan_id>89eef2c82f17c410b09c11c82799b654</plan_id>
+        <snapshot>b4f78fc02f57c410b09c11c82799b644</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>410307cc2f17c410b09c11c82799b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <trigger display_value="">890307cc2f17c410b09c11c82799b602</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>inbound_email_update_manager_tasks__manager</internal_name>
+        <label_cache>[{"name":"Inbound Email_1.target_record.number","label":"Trigger➛Manager Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_95242_manager_as_award","column_name":"number"},{"name":"Inbound Email_1.inbound_email.subject","label":"Trigger➛Email Record➛Subject","reference":"","reference_display":"Subject","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"subject"},{"name":"Inbound Email_1.target_record","label":"Trigger➛Manager Task Record","reference":"x_95242_manager_as_award","reference_display":"Manager Task","type":"reference","base_type":"reference"},{"name":"Inbound Email_1.body_text","label":"Trigger➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8"},{"name":"45d765db-0da8-44d0-80d3-35204677c6be.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"45d765db-0da8-44d0-80d3-35204677c6be.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Inbound Email_1.target_table_name","label":"Trigger➛candidate Table","reference":"x_95242_manager_as_candidate","reference_display":"candidate","type":"table_name","base_type":"table_name"},{"name":"9f02cfe6-c022-4ae3-b4c4-da9e07cc7ff0.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"9f02cfe6-c022-4ae3-b4c4-da9e07cc7ff0.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Inbound Email update Manager Tasks - Manager</name>
+        <outputs/>
+        <parent_flow display_value="Inbound Email update Manager Tasks - Manager">89eef2c82f17c410b09c11c82799b654</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc03c3cc2f17c410b09c11c82799b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc03c3cc2f17c410b09c11c82799b65c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc03c3cc2f17c410b09c11c82799b65c"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT IN8903c3cc2f17c410b09c11c82799b6bf,8d03c3cc2f17c410b09c11c82799b6ba"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8903c3cc2f17c410b09c11c82799b6bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <ui_id>45d765db-0da8-44d0-80d3-35204677c6be</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8903c3cc2f17c410b09c11c82799b6bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903c3cc2f17c410b09c11c82799b6bf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4903c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903c3cc2f17c410b09c11c82799b6bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8503c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8903c3cc2f17c410b09c11c82799b6bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4103c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Inbound Email_1.target_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8903c3cc2f17c410b09c11c82799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>0503c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3bd8bf532f0f0410b09c11c82799b62f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8d03c3cc2f17c410b09c11c82799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <ui_id>d6b1809e-5190-437c-a5dd-6a6207d17d32</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8d03c3cc2f17c410b09c11c82799b6ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8d03c3cc2f17c410b09c11c82799b6ba</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4d03c3cc2f17c410b09c11c82799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>{{Inbound Email_1.inbound_email.subject}}LIKE{{Inbound Email_1.target_record.number}}</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT INcd03c3cc2f17c410b09c11c82799b6c2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</flow>
+        <name>Inbound Email</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>cd03c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>email</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd03c3cc2f17c410b09c11c82799b6c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cd03c3cc2f17c410b09c11c82799b6c2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:34</sys_created_on>
+        <sys_id>0503c3cc2f17c410b09c11c82799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <value/>
+        <variable display_value="">60b307c7c7312300f4eba1425a97637e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cd03c3cc2f17c410b09c11c82799b6c2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:34</sys_created_on>
+        <sys_id>4103c3cc2f17c410b09c11c82799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <value>type=received^receive_type=reply^body_textLIKECompleted^ORbody_textLIKEcompleted^ORbodyLIKECompleted^ORbodyLIKEcompleted^ORsubjectLIKECompleted^ORsubjectLIKEcompleted</value>
+        <variable display_value="">18010347c7312300f4eba1425a9763f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cd03c3cc2f17c410b09c11c82799b6c2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:34</sys_created_on>
+        <sys_id>8d03c3cc2f17c410b09c11c82799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:34</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b914874853132300eb7c0a1806dc34b5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT INb803c3cc2f17c410b09c11c82799b65d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fc03c3cc2f17c410b09c11c82799b65c</id>
+        <name>Inbound Email update Manager Tasks - Manager</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:32</sys_created_on>
+        <sys_id>b803c3cc2f17c410b09c11c82799b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT IN4d03c3cc2f17c410b09c11c82799b6a2,7403c3cc2f17c410b09c11c82799b679,b003c3cc2f17c410b09c11c82799b694,c503c3cc2f17c410b09c11c82799b69b,f003c3cc2f17c410b09c11c82799b672,fc03c3cc2f17c410b09c11c82799b65e,fc03c3cc2f17c410b09c11c82799b68c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Target Record</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4d03c3cc2f17c410b09c11c82799b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>subject</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>Subject</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>7403c3cc2f17c410b09c11c82799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>from_address</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>From address</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>b003c3cc2f17c410b09c11c82799b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>c503c3cc2f17c410b09c11c82799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Target Table</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>f003c3cc2f17c410b09c11c82799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body_text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>Body Text</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:32</sys_created_on>
+        <sys_id>fc03c3cc2f17c410b09c11c82799b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inbound_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Inbound Email</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</model>
+        <model_id>fc03c3cc2f17c410b09c11c82799b65c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_email">sys_email</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>type=received^sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^EQ</reference_qual>
+        <reference_qual_condition table="sys_email">type=received^sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^EQ<item display_value="received" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="received"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>fc03c3cc2f17c410b09c11c82799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT IN8903c3cc2f17c410b09c11c82799b6bf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8903c3cc2f17c410b09c11c82799b6bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <ui_id>45d765db-0da8-44d0-80d3-35204677c6be</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8903c3cc2f17c410b09c11c82799b6bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903c3cc2f17c410b09c11c82799b6bf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4903c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>x_95242_manager_as_award</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8903c3cc2f17c410b09c11c82799b6bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8503c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8903c3cc2f17c410b09c11c82799b6bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4103c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Inbound Email_1.target_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8903c3cc2f17c410b09c11c82799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8903c3cc2f17c410b09c11c82799b6bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>0503c3cc2f17c410b09c11c82799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8903c3cc2f17c410b09c11c82799b6bf^sys_idNOT IN0d03c3cc2f17c410b09c11c82799b6c0"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>8903c3cc2f17c410b09c11c82799b6bf</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>0d03c3cc2f17c410b09c11c82799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT IN8d03c3cc2f17c410b09c11c82799b6ba"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3bd8bf532f0f0410b09c11c82799b62f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Inbound Email update Manager Tasks - Manager">fc03c3cc2f17c410b09c11c82799b65c</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>8d03c3cc2f17c410b09c11c82799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <ui_id>d6b1809e-5190-437c-a5dd-6a6207d17d32</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8d03c3cc2f17c410b09c11c82799b6ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8d03c3cc2f17c410b09c11c82799b6ba</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4d03c3cc2f17c410b09c11c82799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <value>{{Inbound Email_1.inbound_email.subject}}LIKE{{Inbound Email_1.target_record.number}}</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c^sys_idNOT IN3003c3cc2f17c410b09c11c82799b692,3403c3cc2f17c410b09c11c82799b664,4503c3cc2f17c410b09c11c82799b699,4903c3cc2f17c410b09c11c82799b6b4,7c03c3cc2f17c410b09c11c82799b68a,c903c3cc2f17c410b09c11c82799b6a0,f003c3cc2f17c410b09c11c82799b677"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inbound_email</element>
+        <help/>
+        <hint/>
+        <label>Inbound Email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>3003c3cc2f17c410b09c11c82799b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbound Email</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_inbound_email_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body_text</element>
+        <help/>
+        <hint/>
+        <label>Body Text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:32</sys_created_on>
+        <sys_id>3403c3cc2f17c410b09c11c82799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Body Text</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_body_text_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>from_address</element>
+        <help/>
+        <hint/>
+        <label>From address</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4503c3cc2f17c410b09c11c82799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>From address</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_from_address_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_record</element>
+        <help/>
+        <hint/>
+        <label>Target Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>4903c3cc2f17c410b09c11c82799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target Record</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_target_record_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>subject</element>
+        <help/>
+        <hint/>
+        <label>Subject</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>7c03c3cc2f17c410b09c11c82799b68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_subject_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>c903c3cc2f17c410b09c11c82799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_user_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_table_name</element>
+        <help/>
+        <hint/>
+        <label>Target Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 14:34:33</sys_created_on>
+        <sys_id>f003c3cc2f17c410b09c11c82799b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target Table</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc03c3cc2f17c410b09c11c82799b65c_target_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

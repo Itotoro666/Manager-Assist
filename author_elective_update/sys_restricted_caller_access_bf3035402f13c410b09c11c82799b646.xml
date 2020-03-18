@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="DELETE">
+        <operation>write</operation>
+        <source>8de12cdfc0a8016701fdf6b2bdb041cb</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_security_acl</source_table>
+        <source_type>11</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 08:32:56</sys_created_on>
+        <sys_id>bf3035402f13c410b09c11c82799b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_bf3035402f13c410b09c11c82799b646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 08:32:56</sys_updated_on>
+        <target name="x_95242_manager_as_candidate" target_table="sys_db_object">1f4a460c1b3a40108ec1fc86cc4bcb14</target>
+        <target_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_restricted_caller_access_bf3035402f13c410b09c11c82799b646</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access"><sys_restricted_caller_access action="INSERT_OR_UPDATE"><operation>write</operation><source>8de12cdfc0a8016701fdf6b2bdb041cb</source><source_scope display_value="Global">global</source_scope><source_table>sys_security_acl</source_table><source_type>11</source_type><status>2</status><sys_class_name>sys_restricted_caller_access</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-26 08:32:56</sys_created_on><sys_id>bf3035402f13c410b09c11c82799b646</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sys_restricted_caller_access_bf3035402f13c410b09c11c82799b646</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-26 08:32:56</sys_updated_on><target name="x_95242_manager_as_candidate" target_table="sys_db_object">1f4a460c1b3a40108ec1fc86cc4bcb14</target><target_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</target_scope><target_table>sys_db_object</target_table><target_type>1</target_type></sys_restricted_caller_access></record_update>]]></payload>
+        <payload_hash>-1546563927</payload_hash>
+        <record_name>global</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 08:32:56</sys_created_on>
+        <sys_id>b73035402f13c410b09c11c82799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17080a0a44d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 08:32:56</sys_updated_on>
+        <type>Restricted Caller Access Privilege</type>
+        <update_guid>ff3035409313c410c178f041ac3ae048</update_guid>
+        <update_guid_history>ff3035409313c410c178f041ac3ae048:-1546563927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 08:57:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_restricted_caller_access">sys_restricted_caller_access</sys_db_object>
+        <sys_id>d05b96a224e64b4f9e5c8cbecc12af39</sys_id>
+        <sys_metadata>bf3035402f13c410b09c11c82799b646</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_restricted_caller_access_bf3035402f13c410b09c11c82799b646</sys_update_name>
+        <sys_update_version display_value="sys_restricted_caller_access_bf3035402f13c410b09c11c82799b646">b73035402f13c410b09c11c82799b649</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 08:57:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

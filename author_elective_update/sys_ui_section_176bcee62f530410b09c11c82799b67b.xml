@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="176bcee62f530410b09c11c82799b67b" sys_domain="global" table="x_95242_manager_as_award" version="3" view="workspace">
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_95242_manager_as_award</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 04:56:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>176bcee62f530410b09c11c82799b67b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+            <sys_update_name>sys_ui_section_176bcee62f530410b09c11c82799b67b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 04:56:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">2b1a21842ff20010b09c11c82799b646</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_ui_section_176bcee62f530410b09c11c82799b67b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="176bcee62f530410b09c11c82799b67b" sys_domain="global" table="x_95242_manager_as_award" version="3" view="workspace"><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_95242_manager_as_award</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-05 04:56:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>176bcee62f530410b09c11c82799b67b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sys_ui_section_176bcee62f530410b09c11c82799b67b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-05 04:56:29</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace" name="workspace">2b1a21842ff20010b09c11c82799b646</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1931993803</payload_hash>
+        <record_name>Manager Task</record_name>
+        <reverted_from/>
+        <source>dcccc8d62f430010b09c11c82799b6c1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:12:36</sys_created_on>
+        <sys_id>9f1f862e2f530410b09c11c82799b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a91c1bb30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:12:36</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5f1f862e12530410d6c56987b346630e</update_guid>
+        <update_guid_history>5f1f862e12530410d6c56987b346630e:1931993803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:12:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3e7dd8428bff47009684ff7005290000</sys_id>
+        <sys_metadata>176bcee62f530410b09c11c82799b67b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent display_value="Manager Task">3054c6c41b3a40108ec1fc86cc4bcbde</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_176bcee62f530410b09c11c82799b67b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_176bcee62f530410b09c11c82799b67b">9f1f862e2f530410b09c11c82799b60e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:12:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

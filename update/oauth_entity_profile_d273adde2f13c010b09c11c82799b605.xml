@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Slack default_profile</name>
+        <oauth_entity display_value="Slack">3cb1659e2f13c010b09c11c82799b61b</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:23:28</sys_created_on>
+        <sys_id>d273adde2f13c010b09c11c82799b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Slack default_profile</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>oauth_entity_profile_d273adde2f13c010b09c11c82799b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:23:28</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

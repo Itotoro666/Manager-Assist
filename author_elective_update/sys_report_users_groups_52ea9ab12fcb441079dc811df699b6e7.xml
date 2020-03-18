@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="Candidate">daea9ab12fcb441079dc811df699b6e6</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 11:53:00</sys_created_on>
+        <sys_id>52ea9ab12fcb441079dc811df699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>daea9ab12fcb441079dc811df699b6e6</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_report_users_groups_52ea9ab12fcb441079dc811df699b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 11:53:00</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_report_users_groups_52ea9ab12fcb441079dc811df699b6e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Candidate">daea9ab12fcb441079dc811df699b6e6</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 11:53:00</sys_created_on>
+        <sys_id>52ea9ab12fcb441079dc811df699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>daea9ab12fcb441079dc811df699b6e6</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_report_users_groups_52ea9ab12fcb441079dc811df699b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 11:53:00</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>]]></payload>
+        <payload_hash>435937561</payload_hash>
+        <record_name>daea9ab12fcb441079dc811df699b6e6</record_name>
+        <reverted_from/>
+        <source>4dcc0cd62f430010b09c11c82799b656</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 14:49:06</sys_created_on>
+        <sys_id>2fcc001a2f430010b09c11c82799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706312df9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 14:49:06</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>ebcc001aa24300105972a6eeeeb9def2</update_guid>
+        <update_guid_history>ebcc001aa24300105972a6eeeeb9def2:435937561</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 07:08:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>9bc561e60d1544128c319abd8bd22501</sys_id>
+        <sys_metadata>52ea9ab12fcb441079dc811df699b6e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>daea9ab12fcb441079dc811df699b6e6</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_52ea9ab12fcb441079dc811df699b6e7</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_52ea9ab12fcb441079dc811df699b6e7">2fcc001a2f430010b09c11c82799b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 07:08:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

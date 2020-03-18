@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>manager_task</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_95242_manager_as_manager_task</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 07:49:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c56b7d22fcf0010b09c11c82799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager_task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_app_module_1c56b7d22fcf0010b09c11c82799b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 07:49:19</sys_updated_on>
+        <timeline_page/>
+        <title>manager_task</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_app_module_1c56b7d22fcf0010b09c11c82799b64a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>manager_task</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_95242_manager_as_manager_task</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 07:49:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1c56b7d22fcf0010b09c11c82799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>manager_task</sys_name><sys_overrides/><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sys_app_module_1c56b7d22fcf0010b09c11c82799b64a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 07:49:19</sys_updated_on><timeline_page/><title>manager_task</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>880930257</payload_hash>
+        <record_name>manager_task</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 07:49:19</sys_created_on>
+        <sys_id>1c56b7d22fcf0010b09c11c82799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17066b8eb9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 07:49:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5456b7d21bcf0010f80fd4daf8d0164d</update_guid>
+        <update_guid_history>5456b7d21bcf0010f80fd4daf8d0164d:880930257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="manager_task">ef35e9072f07c010b09c11c82799b68b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-23 05:10:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>14cad2f76f12484085269607bb6a9a40</sys_id>
+        <sys_metadata>1c56b7d22fcf0010b09c11c82799b64a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager_task</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_app_module_1c56b7d22fcf0010b09c11c82799b64a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1c56b7d22fcf0010b09c11c82799b64a">1c56b7d22fcf0010b09c11c82799b64d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-23 05:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

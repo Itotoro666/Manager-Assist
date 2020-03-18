@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>form-parent</class_name>
+        <container_class_name>form-container</container_class_name>
+        <name>Manager Task Form - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="manager_task_form">adcf1f8d2fa38c10b09c11c82799b62b</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 05:29:50</sys_created_on>
+        <sys_id>69cf1f8d2fa38c10b09c11c82799b62f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Manager Task Form - Container 2</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sp_container_69cf1f8d2fa38c10b09c11c82799b62f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 05:36:02</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sp_container_69cf1f8d2fa38c10b09c11c82799b62f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>form-parent</class_name><container_class_name>form-container</container_class_name><name>Manager Task Form - Container 2</name><order>2</order><sp_page display_value="manager_task_form">adcf1f8d2fa38c10b09c11c82799b62b</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 05:29:50</sys_created_on><sys_id>69cf1f8d2fa38c10b09c11c82799b62f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Manager Task Form - Container 2</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sp_container_69cf1f8d2fa38c10b09c11c82799b62f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 05:36:02</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1559965727</payload_hash>
+        <record_name>Manager Task Form - Container 2</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 05:36:02</sys_created_on>
+        <sys_id>5431a3412fe38c10b09c11c82799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170d2646e9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 05:36:02</sys_updated_on>
+        <type>Container</type>
+        <update_guid>dc31a34105e38c10cee80a968cc77b69</update_guid>
+        <update_guid_history>dc31a34105e38c10cee80a968cc77b69:1559965727,fc90e70158e38c102429aa0cc581b98b:-1890055794,65cf1f8d4ea38c10e662c6c2bb1b3d31:488433652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Manager Task Form - Container 2">5a42a2ca2f6f4050b09c11c82799b68d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-16 03:35:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>79229176bb2e43aeb9b58ed463c3cd49</sys_id>
+        <sys_metadata>69cf1f8d2fa38c10b09c11c82799b62f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Task Form - Container 2</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sp_container_69cf1f8d2fa38c10b09c11c82799b62f</sys_update_name>
+        <sys_update_version display_value="sp_container_69cf1f8d2fa38c10b09c11c82799b62f">5431a3412fe38c10b09c11c82799b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-16 03:35:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

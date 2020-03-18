@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="messaging_content">
+    <messaging_content action="INSERT_OR_UPDATE">
+        <buttons>f4ac80682fd70810b09c11c82799b61e,4c8c0c282fd70810b09c11c82799b6cb</buttons>
+        <fields>number,assigned_to,award_program,u_choice_2,deadline,state</fields>
+        <message>${URI_REF}</message>
+        <message_heading>You have a pending Manager task is not closed yet.</message_heading>
+        <name>Complete Manager Tasks</name>
+        <script><![CDATA[(function runAction(
+		/*GlideRecord of messaging_application*/ application, 
+		/*GlideRecord of messaging_inbound*/ current,
+		/*Map<String, String> of each named action*/ actions,
+		/*GlideRecord of target table this action is a response to*/ target,
+		/*String of raw action json*/ raw) {
+	
+	var user = gs.getUserID();
+	if (user != target.assigned_to) {
+		throw 'user is not the assigned user';
+	}
+		
+	if (actions.get('button') == 'Completed') {
+		target.state = 3;
+		target.update();
+	} else if (actions.get('button') == 'Incompleted') {
+		return;
+	} else {
+		throw 'unexpected action value: ' + actions.get('button');
+	}
+	
+	var json;
+	try {
+		json = JSON.parse(raw);
+	} catch (e) {
+		throw 'unable to parse json for inbound message: ' + current.getUniqueValue();
+	}
+	
+	var userId;
+	if (application.provider == 'slack') {
+		userId = json.user.id;
+	} else if (application.provider == 'teams') {
+		userId = json.from.id;
+	} else {
+		throw 'unexpected provider: ' + application.provider + ' for application: ' + application.getUniqueValue();
+	}
+	
+	if (gs.nil(userId)) {
+		throw 'unable to determine user to reply to';
+	}
+	
+	var content = new GlideRecord("messaging_content");
+	if (!content.get("1bb10839572213007f004758ef94f9c4")) {
+		throw 'undefined content for approval reply';
+	}
+		
+	sn_notification.Messaging.send(application, userId, content, target);
+	
+})(application, current, actions, target, raw);]]></script>
+        <sys_class_name>messaging_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 14:21:03</sys_created_on>
+        <sys_id>3b2940a42fd70810b09c11c82799b656</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Complete Manager Tasks</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>messaging_content_3b2940a42fd70810b09c11c82799b656</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 03:47:00</sys_updated_on>
+        <target_table>x_95242_manager_as_award</target_table>
+        <type>buttons</type>
+    </messaging_content>
+</record_update>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="Timeline">d07a00648710230084aca571d5cb0b4a</component>
+        <name>ManagerTaskSlot</name>
+        <order>0</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:44:56</sys_created_on>
+        <sys_id>aef51e222f930410b09c11c82799b68e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>ManagerTaskSlot</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_aef51e222f930410b09c11c82799b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 07:37:09</sys_updated_on>
+        <table>x_95242_manager_as_award</table>
+        <tag>sn-component-workspace-timeline</tag>
+        <width>4</width>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="delete_multiple" query="document_key=aef51e222f930410b09c11c82799b68e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>55</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 06:00:19</sys_created_on>
+        <sys_id>1e0ade262f930410b09c11c82799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 06:00:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">11c34d73ff143300dda74b9ad53bf154</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 06:00:19</sys_created_on>
+        <sys_id>520ad6a62f930410b09c11c82799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 06:00:19</sys_updated_on>
+        <value>assigned_to</value>
+        <variable display_value="">8281d4a48710230084aca571d5cb0bc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>35</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 06:00:19</sys_created_on>
+        <sys_id>5a0ade262f930410b09c11c82799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 06:00:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">5a3714348750230084aca571d5cb0b65</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 06:00:19</sys_created_on>
+        <sys_id>9e0ad6a62f930410b09c11c82799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 06:00:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">98335ca48710230084aca571d5cb0b43</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:54:04</sys_created_on>
+        <sys_id>aa9892662f930410b09c11c82799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:54:04</sys_updated_on>
+        <value>assigned_to</value>
+        <variable display_value="">dafb48648710230084aca571d5cb0b31</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>aef51e222f930410b09c11c82799b68e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:54:04</sys_created_on>
+        <sys_id>e29892662f930410b09c11c82799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:54:04</sys_updated_on>
+        <value>20d2eaa35320330030c3ddeeff7b1213</value>
+        <variable display_value="">af1219a9539033009925ddeeff7b1279</variable>
+    </sys_variable_value>
+</record_update>

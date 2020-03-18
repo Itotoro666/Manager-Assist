@@ -4,6 +4,25 @@
             <dependent_value/>
             <element>u_choice_2</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>0</sequence>
+            <sys_created_by>E28442</sys_created_by>
+            <sys_created_on>2020-02-07 03:32:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0855be391bba88907b13ddf7dc4bcb68</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 11:53:58</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_2</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Multi-Cloud Certification Award</label>
             <language>en</language>
@@ -23,8 +42,8 @@
             <dependent_value/>
             <element>u_choice_2</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Choice 2</label>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
             <language>en</language>
             <name>x_95242_manager_as_award</name>
             <sequence>1</sequence>
@@ -32,30 +51,49 @@
             <sys_created_on>2020-02-07 03:32:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0855be391bba88907b13ddf7dc4bcb68</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 03:32:40</sys_updated_on>
-            <value>Choice 2</value>
+            <sys_id>c855be391bba88907b13ddf7dc4bcb6a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 11:53:58</sys_updated_on>
+            <value>Choice 3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_choice_2</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 3</label>
+            <label>SEA(Service Excellence Award)</label>
+            <language>en</language>
+            <name>x_95242_manager_as_award</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 11:53:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3aa41d732f038410b09c11c82799b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 11:53:58</sys_updated_on>
+            <value>SEA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GM Incentive</label>
             <language>en</language>
             <name>x_95242_manager_as_award</name>
             <sequence>2</sequence>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 03:32:40</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 11:53:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c855be391bba88907b13ddf7dc4bcb6a</sys_id>
+            <sys_id>76a41d732f038410b09c11c82799b6bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 03:32:40</sys_updated_on>
-            <value>Choice 3</value>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 11:53:58</sys_updated_on>
+            <value>GM</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_choice_2</element>
@@ -63,7 +101,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>E28442</sys_created_by>
             <sys_created_on>2020-02-07 03:32:40</sys_created_on>
-            <sys_id>808c79372f32c01079dc811df699b6f0</sys_id>
+            <sys_id>a8dc801a2f430010b09c11c82799b66d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_choice_2</sys_name>
             <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>

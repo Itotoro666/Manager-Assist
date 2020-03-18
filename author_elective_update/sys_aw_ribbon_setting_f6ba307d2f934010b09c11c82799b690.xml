@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="DELETE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="Active SLA">5acf80a48710230084aca571d5cb0b69</component>
+        <name>ManagerTaskSlot</name>
+        <order>0</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>f6ba307d2f934010b09c11c82799b690</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ManagerTaskSlot</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_f6ba307d2f934010b09c11c82799b690</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:41:07</sys_updated_on>
+        <table>x_95242_manager_as_award</table>
+        <tag>sn-component-workspace-sla</tag>
+        <width>2</width>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="DELETE" query="document_key=f6ba307d2f934010b09c11c82799b690"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>190cb0bd2f934010b09c11c82799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value/>
+        <variable display_value="">67d794348750230084aca571d5cb0bd0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>1d0cb0bd2f934010b09c11c82799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value>name,manager</value>
+        <variable display_value="">67b59cf08750230084aca571d5cb0b76</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>550cb0bd2f934010b09c11c82799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value/>
+        <variable display_value="">306650348750230084aca571d5cb0b06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>60</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>590cb0bd2f934010b09c11c82799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value/>
+        <variable display_value="">81f3cd73ff143300dda74b9ad53bf1b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>910cb0bd2f934010b09c11c82799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">98335ca48710230084aca571d5cb0b43</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>35</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>950cb0bd2f934010b09c11c82799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">5a3714348750230084aca571d5cb0b65</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>9d0c387d2f934010b09c11c82799b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value/>
+        <variable display_value="">c9838973ff143300dda74b9ad53bf17c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>d90cb0bd2f934010b09c11c82799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value>assigned_to</value>
+        <variable display_value="">8281d4a48710230084aca571d5cb0bc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>f6ba307d2f934010b09c11c82799b690</document_key>
+        <order>55</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 15:14:08</sys_created_on>
+        <sys_id>dd0cb0bd2f934010b09c11c82799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 15:14:08</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">11c34d73ff143300dda74b9ad53bf154</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_aw_ribbon_setting_f6ba307d2f934010b09c11c82799b690</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting"><sys_aw_ribbon_setting action="INSERT_OR_UPDATE"><active>true</active><attrs/><component display_value="Active SLA">5acf80a48710230084aca571d5cb0b69</component><name>ManagerTaskSlot</name><order>0</order><sys_class_name>sys_aw_ribbon_setting</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>f6ba307d2f934010b09c11c82799b690</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ManagerTaskSlot</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sys_aw_ribbon_setting_f6ba307d2f934010b09c11c82799b690</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-05 05:41:07</sys_updated_on><table>x_95242_manager_as_award</table><tag>sn-component-workspace-sla</tag><width>2</width></sys_aw_ribbon_setting><sys_variable_value action="delete_multiple" query="document_key=f6ba307d2f934010b09c11c82799b690"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>40</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>190cb0bd2f934010b09c11c82799b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value/><variable display_value="">67d794348750230084aca571d5cb0bd0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>20</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>1d0cb0bd2f934010b09c11c82799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value>name,manager</value><variable display_value="">67b59cf08750230084aca571d5cb0b76</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>30</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>550cb0bd2f934010b09c11c82799b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value/><variable display_value="">306650348750230084aca571d5cb0b06</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>60</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>590cb0bd2f934010b09c11c82799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value/><variable display_value="">81f3cd73ff143300dda74b9ad53bf1b0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>15</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>910cb0bd2f934010b09c11c82799b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value>sys_user</value><variable display_value="">98335ca48710230084aca571d5cb0b43</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>35</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>950cb0bd2f934010b09c11c82799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value>sys_user</value><variable display_value="">5a3714348750230084aca571d5cb0b65</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>9d0c387d2f934010b09c11c82799b694</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value/><variable display_value="">c9838973ff143300dda74b9ad53bf17c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>d90cb0bd2f934010b09c11c82799b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value>assigned_to</value><variable display_value="">8281d4a48710230084aca571d5cb0bc2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>f6ba307d2f934010b09c11c82799b690</document_key><order>55</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 15:14:08</sys_created_on><sys_id>dd0cb0bd2f934010b09c11c82799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 15:14:08</sys_updated_on><value>sys_user</value><variable display_value="">11c34d73ff143300dda74b9ad53bf154</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-75828453</payload_hash>
+        <record_name>ManagerTaskSlot</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:41:07</sys_created_on>
+        <sys_id>0da592a22f930410b09c11c82799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a93638e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:41:07</sys_updated_on>
+        <type>Ribbon Setting</type>
+        <update_guid>85a592a2dd930410238e74cbffe2f830</update_guid>
+        <update_guid_history>85a592a2dd930410238e74cbffe2f830:-75828453,40775b7583db4010bea47118bdc1ad8b:-29861079,510cb0bd87934010bf274c7c6c2e7fcd:790345802</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 05:42:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_ribbon_setting">sys_aw_ribbon_setting</sys_db_object>
+        <sys_id>0cff2b35555e429484ecddc2bd9d7304</sys_id>
+        <sys_metadata>f6ba307d2f934010b09c11c82799b690</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ManagerTaskSlot</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_aw_ribbon_setting_f6ba307d2f934010b09c11c82799b690</sys_update_name>
+        <sys_update_version display_value="sys_aw_ribbon_setting_f6ba307d2f934010b09c11c82799b690">0da592a22f930410b09c11c82799b630</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 05:42:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

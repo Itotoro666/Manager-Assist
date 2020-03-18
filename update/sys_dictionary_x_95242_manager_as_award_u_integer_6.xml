@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>E28442</sys_created_by>
         <sys_created_on>2020-02-07 11:30:29</sys_created_on>
-        <sys_id>d3a22c021b76c8907b13ddf7dc4bcb82</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>f8cc0cd62f430010b09c11c82799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Nomination Total (Assigned)</sys_name>
         <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
         <sys_update_name>sys_dictionary_x_95242_manager_as_award_u_integer_6</sys_update_name>
-        <sys_updated_by>E28442</sys_updated_by>
-        <sys_updated_on>2020-02-07 11:50:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 14:49:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

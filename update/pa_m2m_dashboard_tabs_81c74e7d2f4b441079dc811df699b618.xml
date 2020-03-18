@@ -2,7 +2,7 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="My  ManagerPortal 1">fcc74e7d2f4b441079dc811df699b610</dashboard>
         <home>false</home>
-        <homepage display_value="My  ManagerPortal 1">90f44af92f4b441079dc811df699b6ab</homepage>
+        <homepage display_value="">90f44af92f4b441079dc811df699b6ab</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>

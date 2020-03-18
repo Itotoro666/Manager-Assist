@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="Award Status by Priority/State/Candidate (Manager's View)">6ce77e072f4bc010b09c11c82799b6d7</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>manager11</sys_created_by>
+        <sys_created_on>2020-02-26 01:35:03</sys_created_on>
+        <sys_id>2a90d8082f9b8410b09c11c82799b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6ce77e072f4bc010b09c11c82799b6d7</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sys_report_users_groups_2a90d8082f9b8410b09c11c82799b605</sys_update_name>
+        <sys_updated_by>manager11</sys_updated_by>
+        <sys_updated_on>2020-02-26 01:35:03</sys_updated_on>
+        <user_id display_value="manager11 ">11bd3f2a2f8f4010b09c11c82799b64f</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sys_report_users_groups_2a90d8082f9b8410b09c11c82799b605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="Award Status by Priority/State/Candidate (Manager's View)">6ce77e072f4bc010b09c11c82799b6d7</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>manager11</sys_created_by><sys_created_on>2020-02-26 01:35:03</sys_created_on><sys_id>2a90d8082f9b8410b09c11c82799b605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6ce77e072f4bc010b09c11c82799b6d7</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sys_report_users_groups_2a90d8082f9b8410b09c11c82799b605</sys_update_name><sys_updated_by>manager11</sys_updated_by><sys_updated_on>2020-02-26 01:35:03</sys_updated_on><user_id display_value="manager11 ">11bd3f2a2f8f4010b09c11c82799b64f</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>1012357119</payload_hash>
+        <record_name>6ce77e072f4bc010b09c11c82799b6d7</record_name>
+        <reverted_from/>
+        <source>7fdccc962f430010b09c11c82799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>manager11</sys_created_by>
+        <sys_created_on>2020-02-26 01:35:04</sys_created_on>
+        <sys_id>2a90d8082f9b8410b09c11c82799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1707f2211680000001</sys_recorded_at>
+        <sys_updated_by>manager11</sys_updated_by>
+        <sys_updated_on>2020-02-26 01:35:04</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>6290d808759b841047359e063078aa07</update_guid>
+        <update_guid_history>6290d808759b841047359e063078aa07:1012357119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 00:54:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>314a422924b0432c8b04071943982d41</sys_id>
+        <sys_metadata>2a90d8082f9b8410b09c11c82799b605</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6ce77e072f4bc010b09c11c82799b6d7</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent display_value="Award Status by Priority/State/Candidate (Manager's View)">6ce77e072f4bc010b09c11c82799b6d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_2a90d8082f9b8410b09c11c82799b605</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_2a90d8082f9b8410b09c11c82799b605">2a90d8082f9b8410b09c11c82799b607</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-27 00:54:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

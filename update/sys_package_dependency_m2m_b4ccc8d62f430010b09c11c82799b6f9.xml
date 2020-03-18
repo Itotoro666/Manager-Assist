@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">f0e6a5842f320010b09c11c82799b6d3</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>Kenji.Nakao1@ibm.com</sys_created_by>
+        <sys_created_on>2020-02-13 04:32:10</sys_created_on>
+        <sys_id>b4ccc8d62f430010b09c11c82799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_updated_by>Kenji.Nakao1@ibm.com</sys_updated_by>
+        <sys_updated_on>2020-02-13 04:32:10</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

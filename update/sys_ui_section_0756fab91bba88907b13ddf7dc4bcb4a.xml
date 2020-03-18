@@ -2,247 +2,247 @@
     <sys_ui_section caption="New Section" section_id="0756fab91bba88907b13ddf7dc4bcb4a" sys_domain="global" table="x_95242_manager_as_award" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:26</sys_created_on>
-            <sys_id>b737a8c61b76c8907b13ddf7dc4bcb1a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>bb74e5332f438410b09c11c82799b629</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:26</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <text>Manager Task</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7b37a8c61b76c8907b13ddf7dc4bcb1a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>b374e5332f438410b09c11c82799b62a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <text>Award Info.</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b737a8c61b76c8907b13ddf7dc4bcb1a</element>
+            <element>bb74e5332f438410b09c11c82799b629</element>
             <position>0</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7337a8c61b76c8907b13ddf7dc4bcb28</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7b74e5332f438410b09c11c82799b630</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>1</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>f737a8c61b76c8907b13ddf7dc4bcb28</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>ff74e5332f438410b09c11c82799b630</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>2</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7f37a8c61b76c8907b13ddf7dc4bcb28</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7374e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>3</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>f337a8c61b76c8907b13ddf7dc4bcb29</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>f374e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7b37a8c61b76c8907b13ddf7dc4bcb29</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7774e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>5</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>ff37a8c61b76c8907b13ddf7dc4bcb29</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>f774e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>award</element>
             <position>6</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7737a8c61b76c8907b13ddf7dc4bcb2a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7b74e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>7</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>fb37a8c61b76c8907b13ddf7dc4bcb2a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>fb74e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7b37a8c61b76c8907b13ddf7dc4bcb1a</element>
+            <element>b374e5332f438410b09c11c82799b62a</element>
             <position>8</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7337a8c61b76c8907b13ddf7dc4bcb2b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7f74e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>9</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>f737a8c61b76c8907b13ddf7dc4bcb2b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>ff74e5332f438410b09c11c82799b631</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>target_year</element>
             <position>10</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7f37a8c61b76c8907b13ddf7dc4bcb2b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7374e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>11</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>f337a8c61b76c8907b13ddf7dc4bcb2c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>f374e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>target_quarter</element>
             <position>12</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7b37a8c61b76c8907b13ddf7dc4bcb2c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7774e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>13</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>ff37a8c61b76c8907b13ddf7dc4bcb2c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>f774e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_choice_2</element>
             <position>14</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>7737a8c61b76c8907b13ddf7dc4bcb2d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>7b74e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>deadline</element>
             <position>15</position>
-            <sys_created_by>E28442</sys_created_by>
-            <sys_created_on>2020-02-07 11:50:27</sys_created_on>
-            <sys_id>fb37a8c61b76c8907b13ddf7dc4bcb2d</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 13:03:07</sys_created_on>
+            <sys_id>fb74e5332f438410b09c11c82799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_95242_manager_as_award" sys_domain="global" view="Default view">0756fab91bba88907b13ddf7dc4bcb4a</sys_ui_section>
-            <sys_updated_by>E28442</sys_updated_by>
-            <sys_updated_on>2020-02-07 11:50:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 13:03:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

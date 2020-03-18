@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="messaging_content">
+    <messaging_content action="INSERT_OR_UPDATE">
+        <buttons/>
+        <fields>number,assigned_to,award_program,u_choice_2,state,sys_created_by</fields>
+        <message>${URI_REF}: ${short_description}</message>
+        <message_heading>A new Manager task has been created. Please follow the link for more information.</message_heading>
+        <name>Manager task opened for me</name>
+        <script><![CDATA[(function runAction(
+                /*GlideRecord of messaging_application*/ application, 
+                /*GlideRecord of messaging_inbound*/ current,
+                /*Map<String, String> of each named action*/ actions,
+                /*GlideRecord of target table this action is a response to*/ target,
+                /*String of raw action json*/ raw) {
+
+ // Implement action script here
+
+})(application, current, actions, target, raw);]]></script>
+        <sys_class_name>messaging_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 12:59:11</sys_created_on>
+        <sys_id>b54633542f970810b09c11c82799b665</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Manager task opened for me</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>messaging_content_b54633542f970810b09c11c82799b665</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 03:46:28</sys_updated_on>
+        <target_table>x_95242_manager_as_award</target_table>
+        <type>simple</type>
+    </messaging_content>
+</record_update>
