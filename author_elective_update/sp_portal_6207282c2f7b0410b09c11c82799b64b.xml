@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>true</default>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 13:03:40</sys_created_on>
+        <sys_id>6207282c2f7b0410b09c11c82799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Homepage1</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_update_name>sp_portal_6207282c2f7b0410b09c11c82799b64b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 13:03:40</sys_updated_on>
+        <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
+        <title>Test Homepage1</title>
+        <ts_index_group/>
+        <url_suffix>test1</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=6207282c2f7b0410b09c11c82799b64b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</application>
+        <file_path/>
+        <instance_id>5575ae20dbe6401452cec59705961992</instance_id>
+        <instance_name>dev97267</instance_name>
+        <name>sp_portal_6207282c2f7b0410b09c11c82799b64b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>true</default><homepage/><icon/><kb_knowledge_base/><kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page><login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page><logo/><notfound_page/><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><sp_chat_queue/><sp_rectangle_menu/><sqanda_knowledge_base/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-23 13:03:40</sys_created_on><sys_id>6207282c2f7b0410b09c11c82799b64b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Homepage1</sys_name><sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package><sys_policy/><sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope><sys_update_name>sp_portal_6207282c2f7b0410b09c11c82799b64b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-23 13:03:40</sys_updated_on><theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme><title>Test Homepage1</title><ts_index_group/><url_suffix>test1</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=6207282c2f7b0410b09c11c82799b64b"/></record_update>]]></payload>
+        <payload_hash>1688465624</payload_hash>
+        <record_name>Test Homepage1</record_name>
+        <reverted_from/>
+        <source>bbf228be2f670450b09c11c82799b657</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 13:03:40</sys_created_on>
+        <sys_id>8f87206c2f7b0410b09c11c82799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171077ddad30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 13:03:40</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>c787206c207b0410f3b9be7bee046da9</update_guid>
+        <update_guid_history>c787206c207b0410f3b9be7bee046da9:1688465624</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Homepage1">cca7ac2c2f7b0410b09c11c82799b63d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 13:04:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>aee382df2cb144d8bd92d8ee2af49329</sys_id>
+        <sys_metadata>6207282c2f7b0410b09c11c82799b64b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Homepage1</sys_name>
+        <sys_package display_value="Manager Assistant" source="x_95242_manager_as">93824e441b3a40108ec1fc86cc4bcbbf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Assistant">93824e441b3a40108ec1fc86cc4bcbbf</sys_scope>
+        <sys_scope_delete display_value="">06cac89db92749428da1353a9380f1e4</sys_scope_delete>
+        <sys_update_name>sp_portal_6207282c2f7b0410b09c11c82799b64b</sys_update_name>
+        <sys_update_version display_value="sp_portal_6207282c2f7b0410b09c11c82799b64b">8f87206c2f7b0410b09c11c82799b6a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 13:04:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
